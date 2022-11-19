@@ -1,0 +1,9 @@
+# series of manageable patches instead of one gigantic PR. It disables some of
+# the new lints that are already failing on this plugin, for this plugin. It
+# should be deleted and the failing lints addressed as soon as possible.
+
+
+analyzer:
+  errors:
+    public_member_api_docs: ignore
+    unawaited_futures: ignore
